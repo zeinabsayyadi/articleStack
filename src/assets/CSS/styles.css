@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif !important; 
+    list-style-type: none,
+}
+
+body{
+    background-color: white;
+}
+a{
+    text-decoration: none !important;
+}
+nav ol, nav ul {
+    list-style: none;
+  }
