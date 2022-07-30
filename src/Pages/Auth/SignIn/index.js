@@ -59,7 +59,6 @@ const SignIn =()=>{
         <Box
         className={classes.root}
       >
-        <Loader/>
         <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
           <LockOutlinedIcon />
         </Avatar>

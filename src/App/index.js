@@ -10,11 +10,9 @@ import EditeArticle from "../Pages/CRUD/EditeArticle";
 import SignUp from "../Pages/Auth/SignUp";
 import Profile from "../Pages/Profile";
 import Articles from "../Pages/Articles";
-import Loader from "../components/common/Loader";
 const App =()=>{  
     return (
         <>
-       <Loader/>
        <Layout>
         <Routes>
             <Route path='/' element={

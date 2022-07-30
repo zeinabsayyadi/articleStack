@@ -2,7 +2,6 @@ import React from "react";
 import {Box, Grid} from "@material-ui/core";
 import Header from "../Header";
 import Sidebar from "../SidePanel";
-import useStyle from "../Header/Header.Styles";
 
 const Layout =(props)=>{
     return (
@@ -17,7 +16,9 @@ const Layout =(props)=>{
                 </Grid>
                 <Grid item xs={9}
                 >
-                    {props.children}
+                    <Box marginBottom='240px' position='relative'>
+                        {props.children}
+                    </Box>
                 </Grid>
             </Grid>
         </Grid>
